@@ -1,0 +1,36 @@
+<script src="{{ site.baseurl }}/js/vendors/jquery-3.3.1.min.js"></script>
+<script src="{{ site.baseurl }}/js/vendors/simple-jekyll-search.min.js"></script>
+<script src="{{ site.baseurl }}/js/vendors/jquery.mousewheel.min.js"></script>
+<script src="{{ site.baseurl }}/js/vendors/jquery-ui-1.8.20.custom.min.js"></script>
+<script src="{{ site.baseurl }}/js/vendors/jquery.fitvids.js"></script>
+
+<script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById("js-search-input"),
+    resultsContainer: document.getElementById("js-results-container"),
+    json: "{{site.baseurl}}/search.json",
+    searchResultTemplate: '<li class="search-results__item"><a class="search-results__link" href="{url}">{title}</a><br> <span class="search-results__date">{date}</span></li>',
+    noResultsText: '<li class="no-results">No results found</li>'
+  });
+</script>
+<script src="{{ site.baseurl }}/js/vendors/transition.js"></script>
+<script src="{{ site.baseurl }}/js/vendors/zoom.min.js"></script>
+<script src="{{ site.baseurl }}/js/vendors/instafeed.min.js"></script>
+<script src="{{ site.baseurl }}/js/vendors/scissor.min.js"></script>
+<script src="{{ site.baseurl }}/js/vendors/turn.html4.min.js"></script>
+<script src="{{ site.baseurl }}/js/vendors/turn.min.js"></script>
+<script src="{{ site.baseurl }}/js/vendors/jgestures.min.js"></script>
+<script src="{{ site.baseurl }}/js/vendors/modernizr.2.5.3.min.js"></script>
+<script src="{{ site.baseurl }}/js/vendors/basic.js"></script>
+<script src="{{ site.baseurl }}/js/vendors/zoom.min.js"></script>
+<script src="{{ site.baseurl }}/js/vendors/hash.js"></script>
+<script src="{{ site.baseurl }}/js/common.js"></script>
+<script src="{{ site.baseurl }}/js/galeri.js"></script>
+
+<script type="text/javascript">
+	$("#flipbook").turn({
+		width: 400,
+		height: 300,
+		autoCenter: true
+	});
+</script>

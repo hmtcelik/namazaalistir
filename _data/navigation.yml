@@ -1,0 +1,17 @@
+
+  #ustteki-menu
+- name: Anasayfa
+  link: /
+- name: Makaleler
+  link: /makaleler
+- name: Siirler
+  link: /siir
+- name: Oyunlar
+  link: /oyunlar
+- name: Dosyalar
+  link: /dosyalar
+- name: Galeri
+  link: /galeri
+- name: Hakkinda
+  link: /hakkinda
+
